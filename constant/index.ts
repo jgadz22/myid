@@ -4,12 +4,12 @@ export const headerLinks = [
     route: "/",
   },
   {
-    label: "Create New Digital ID",
-    route: "/myid/create",
+    label: "Create Digital ID",
+    route: "/myids/create",
   },
 ];
 
-export const eventDefaultValues = {
+export const myidDefaultValues = {
   idTitle: "",
   idNumber: "",
   imageUrl: "",

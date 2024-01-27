@@ -18,8 +18,7 @@ export type UpdateUserParams = {
 // ====== MYID PARAMS
 export type CreateMyidParams = {
   userId: string;
-  event: {
-    _id: string;
+  myid: {
     idTitle: string;
     idNumber: string;
     imageUrl: string;
@@ -39,13 +38,13 @@ export type UpdateMyidParams = {
 };
 
 export type DeleteMyidParams = {
-  eventId: string;
+  myidId: string;
   path: string;
 };
 
-export type GetAllMyidParams = {
+export type GetAllMyidsParams = {
   query: string;
-  category: string;
+  userId: string;
   limit: number;
   page: number;
 };
